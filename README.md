@@ -1,0 +1,1 @@
+# VAAST_IAT_Trust_Firebase
