@@ -11,18 +11,6 @@ library(magrittr)
   fireData::download("https://marineexpe.firebaseio.com", "/") %>%
   write_rds(glue("backup/{as.integer(Sys.time())}.RData")) 
 
-# participant dataset -----------------------------------------------------
-# dataset_participant <-
-#  database %>% 
-#  pluck("participant_id") %>% 
-#  map_dfr(~tibble(epoch = .x$timestamp,
-#                      jspsych_id = .x$jspsych_id,
-#                      prolific_id = .x$prolific_id,
-#                      taskOrder = .x$taskOrder,
-#                      firstblockvaast = .x$experimental_condition,
-#                      iat_good_side = .x$iat_good_side,
-#                      iat_black_1_side = .x$iat_black_1_side)) %>% 
-#  mutate(timestamp = lubridate::as_datetime(epoch / 1000 )) 
 
 # vaast dataset -----------------------------------------------------------
 dataset_vaast_trial <-

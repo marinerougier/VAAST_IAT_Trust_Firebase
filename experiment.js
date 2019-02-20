@@ -64,9 +64,9 @@ if(!is_compatible) {
   var database = firebase.database();
 
   // prolific variables
-  var prolific_id = jsPsych.data.getURLVariable('PROLIFIC_ID');
-  if(prolific_id == null) {prolific_id = "999";}
-  var jspsych_id  = jsPsych.data.getURLVariable("id");
+  var prolificID = jsPsych.data.getURLVariable("prolificID");
+  if(prolificID == null) {prolificID = "999";}
+  var jspsych_id  = jsPsych.data.getURLVariable("jspsych_id");
    if(jspsych_id == null) {jspsych_id = "999";}
 
   //var session_id  = jsPsych.randomization.randomID();
@@ -290,13 +290,12 @@ var next_position = function(){
 
 // init ---------------------------------------------------------------------------------
   var saving_id = function(){
-    // prolific_id = jsPsych.data.getDataByTimelineNode("0.0-3.0").values()[0].responses.slice(7, -2);
      database
         .ref("participant_id/")
         .push()
         .set({jspsych_id: jspsych_id,
                taskOrder: TaskOrder,
-               prolific_id: prolific_id,
+               prolificID: prolificID,
                experimental_condition: vaast_condition_approach_1,
                iat_good_side: iat_good,
                iat_black_1_side: iat_black_1,
@@ -309,7 +308,7 @@ var next_position = function(){
       .ref("vaast_trial/").
       push()
         .set({jspsych_id: jspsych_id,
-          prolific_id: prolific_id,
+          prolificID: prolificID,
           taskOrder: TaskOrder,
           experimental_condition: vaast_condition_approach_1,
           iat_good_side: iat_good,
@@ -324,7 +323,7 @@ var next_position = function(){
       .ref("iat_trial/")
       .push()
       .set({jspsych_id: jspsych_id,
-          prolific_id: prolific_id,
+          prolificID: prolificID,
           taskOrder: TaskOrder,
           experimental_condition: vaast_condition_approach_1,
           iat_good_side: iat_good,
@@ -340,7 +339,7 @@ var next_position = function(){
      .ref("browser_event/")
      .push()
      .set({jspsych_id: jspsych_id,
-      prolific_id: prolific_id,
+      prolificID: prolificID,
       timestamp: firebase.database.ServerValue.TIMESTAMP,
       taskOrder: TaskOrder,
       experimental_condition: vaast_condition_approach_1,
@@ -376,6 +375,16 @@ var sample_n_iat = function(list, n) {
 }
 
 // EXPERIMENT ---------------------------------------------------------------------------
+
+// First slide --------------------------------------------------------------------------
+  var instructions_gene = {
+    type: "html-keyboard-response",
+    stimulus:
+      "<p>Task 1 is over.</p>  " +
+      "<p>Now, you have to perform the two other tasks (task 2 and task 3). These tasks are about <b>first names categorization.</b></p> " +
+      "<p class = 'continue-instructions'>Press <strong>space</strong> to start Task 2.</p>",
+    choices: [32]
+  };
 
 // Switching to fullscreen --------------------------------------------------------------
 var fullscreen_trial = {
@@ -1592,7 +1601,9 @@ var fullscreen_trial_exit = {
 var timeline = [];
 
 // fullscreen
-timeline.push(fullscreen_trial,
+timeline.push(
+        instructions_gene,
+        fullscreen_trial,
 			  hiding_cursor);
 
 // prolific verification
@@ -1696,7 +1707,8 @@ if(is_compatible) {
         jsPsych.data.addProperties({
           taskOrder: TaskOrder,
         });
-        window.location.href = "https://uclpsychology.co1.qualtrics.com/jfe/form/SV_0NRoqjK0V6IpikJ?id=" + jspsych_id;
+        window.location.href = "https://uclpsychology.co1.qualtrics.com/jfe/form/SV_0NRoqjK0V6IpikJ?jspsych_id=" + jspsych_id + "?prolificID="+ 
+        prolificID;
     }
   });
 }
