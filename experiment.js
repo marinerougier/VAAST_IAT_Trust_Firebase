@@ -65,9 +65,9 @@ if(!is_compatible) {
 
   // prolific variables
   var prolific_id = jsPsych.data.getURLVariable('PROLIFIC_ID');
-  if(prolific_id == null) {prolific_id = "";}
+  if(prolific_id == null) {prolific_id = "999";}
   var jspsych_id  = jsPsych.data.getURLVariable("id");
-   if(jspsych_id == null) {jspsych_id = "";}
+   if(jspsych_id == null) {jspsych_id = "999";}
 
   //var session_id  = jsPsych.randomization.randomID();
 
@@ -298,6 +298,8 @@ var next_position = function(){
                taskOrder: TaskOrder,
                prolific_id: prolific_id,
                experimental_condition: vaast_condition_approach_1,
+               iat_good_side: iat_good,
+               iat_black_1_side: iat_black_1,
                timestamp: firebase.database.ServerValue.TIMESTAMP})
   }
 
@@ -310,6 +312,8 @@ var next_position = function(){
           prolific_id: prolific_id,
           taskOrder: TaskOrder,
           experimental_condition: vaast_condition_approach_1,
+          iat_good_side: iat_good,
+          iat_black_1_side: iat_black_1,
           timestamp: firebase.database.ServerValue.TIMESTAMP,
           vaast_trial_data: jsPsych.data.get().last(3).json()})
   }
@@ -324,6 +328,7 @@ var next_position = function(){
           taskOrder: TaskOrder,
           experimental_condition: vaast_condition_approach_1,
           iat_good_side: iat_good,
+          iat_black_1_side: iat_black_1,
           timestamp: firebase.database.ServerValue.TIMESTAMP,
           iat_trial_data: jsPsych.data.get().last().json()})
   }
@@ -1395,7 +1400,7 @@ var iat_block_1 = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_1_stim,50)
+  timeline_variables: sample_n_iat(iat_block_1_stim,30)
 }
 
 // iat - block 2 ------------------------------------------------------------------------orginally 20 trials over 4 stim
@@ -1422,7 +1427,7 @@ var iat_block_2 = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_2_stim, 50)
+  timeline_variables: sample_n_iat(iat_block_2_stim, 30)
 }
 
 // iat - block 3 (training) -------------------------------------------------------------orginally 20 trials over 8 stim
@@ -1450,7 +1455,7 @@ var iat_block_3_training = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_3_stim, 50)
+  timeline_variables: sample_n_iat(iat_block_3_stim, 60)
 }
 
 // iat - block 3 (test) -----------------------------------------------------------------orginally 74 trials over 8 stim
@@ -1477,7 +1482,7 @@ var iat_block_3_test = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_3_stim, 100)
+  timeline_variables: sample_n_iat(iat_block_3_stim, 60)
 }
 
 // iat - block 4 ------------------------------------------------------------------------orginally 20 trials over 4 stim
@@ -1504,7 +1509,7 @@ var iat_block_4 = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_4_stim, 50)
+  timeline_variables: sample_n_iat(iat_block_4_stim, 60)
 }
 
 // iat - block 5 (training) -------------------------------------------------------------orginally 20 trials over 8 stim
@@ -1531,7 +1536,7 @@ var iat_block_5_training = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_5_stim, 50)
+  timeline_variables: sample_n_iat(iat_block_5_stim, 60)
 }
 
 // iat - block 5 (test) -----------------------------------------------------------------orginally 74 trials over 8 stim
@@ -1559,7 +1564,7 @@ var iat_block_5_test = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_5_stim, 100)
+  timeline_variables: sample_n_iat(iat_block_5_stim, 60)
 }
 
 //
