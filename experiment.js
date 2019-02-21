@@ -709,7 +709,7 @@ var vaast_training_block_1 = {
     save_vaast_trial
   ],
   timeline_variables: vaast_stim_training,
-  repetitions: 2,
+  repetitions: 1, //here, put 2
   randomize_order: true,
   data: {
     phase:    "training",
@@ -728,7 +728,7 @@ var vaast_test_block_1 = {
     save_vaast_trial
   ],
   timeline_variables: vaast_stim,
-  repetitions: 2,
+  repetitions: 1,  //here, put 2
   randomize_order: true,
   data: {
     phase:    "test",
@@ -747,7 +747,7 @@ var vaast_training_block_2 = {
     save_vaast_trial
   ],
   timeline_variables: vaast_stim_training,
-  repetitions: 2,
+  repetitions: 1,  //here, put 2
   randomize_order: true,
   data: {
     phase:    "training",
@@ -766,7 +766,7 @@ var vaast_test_block_2 = {
     save_vaast_trial
   ],
   timeline_variables: vaast_stim,
-  repetitions: 2,
+  repetitions: 1,  //here, put 2
   randomize_order: true,
   data: {
     phase:    "test",
@@ -1409,7 +1409,7 @@ var iat_block_1 = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_1_stim,30)
+  timeline_variables: sample_n_iat(iat_block_1_stim,5)  //here, put 30
 }
 
 // iat - block 2 ------------------------------------------------------------------------orginally 20 trials over 4 stim
@@ -1436,7 +1436,7 @@ var iat_block_2 = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_2_stim, 30)
+  timeline_variables: sample_n_iat(iat_block_2_stim, 5) //here, put 30
 }
 
 // iat - block 3 (training) -------------------------------------------------------------orginally 20 trials over 8 stim
@@ -1464,7 +1464,7 @@ var iat_block_3_training = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_3_stim, 60)
+  timeline_variables: sample_n_iat(iat_block_3_stim, 5)  //here, put 60
 }
 
 // iat - block 3 (test) -----------------------------------------------------------------orginally 74 trials over 8 stim
@@ -1491,7 +1491,7 @@ var iat_block_3_test = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_3_stim, 60)
+  timeline_variables: sample_n_iat(iat_block_3_stim, 5)  //here, put 60
 }
 
 // iat - block 4 ------------------------------------------------------------------------orginally 20 trials over 4 stim
@@ -1518,7 +1518,7 @@ var iat_block_4 = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_4_stim, 60)
+  timeline_variables: sample_n_iat(iat_block_4_stim, 5)  //here, put 60
 }
 
 // iat - block 5 (training) -------------------------------------------------------------orginally 20 trials over 8 stim
@@ -1545,7 +1545,7 @@ var iat_block_5_training = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_5_stim, 60)
+  timeline_variables: sample_n_iat(iat_block_5_stim, 5)  //here, put 60
 }
 
 // iat - block 5 (test) -----------------------------------------------------------------orginally 74 trials over 8 stim
@@ -1573,7 +1573,7 @@ var iat_block_5_test = {
     },
     save_iat_trial
   ],
-  timeline_variables: sample_n_iat(iat_block_5_stim, 60)
+  timeline_variables: sample_n_iat(iat_block_5_stim, 5)  //here, put 60
 }
 
 //
