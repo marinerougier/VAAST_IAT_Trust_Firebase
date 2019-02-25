@@ -427,6 +427,7 @@ var vaast_instructions_2 = {
     "<p class='instructions'>Y = to MOVE FORWARD </p>" +
     "<p class='instructions'>H = START key </p>" +
     "<p class='instructions'>N = to MOVE BACKWARD </p>" +
+    "<br>" +
     "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
     " continue.</p>",
   choices: [32]
@@ -451,6 +452,8 @@ var vaast_instructions_2_1 = {
         "<td align='left'>Alonzo, Jamel, Lerone, Percell, Theo, Alphonse, Jerome, Leroy, Rasaan, Torrance, Darnell, Lamar, Lionel, Rashaun, Tyree, Deion, Lamont, Malik, Terrence, Tyrone, Everol, Lavon, Marcellus, Terryl, Wardell</td>" +
       "</tr>" +
     "</table>" +
+    "<br>" +
+    "<br>" +
     "<p class = 'continue-instructions'>Press <span class='key'>space</span>" +
     " to continue.</p>",
   choices: [32]
@@ -466,6 +469,7 @@ var vaast_instructions_3 = {
     "<p class='instructions'>Your task is to move forward or backward by pressing the MOVE FORWARD (the Y key) " +
     "or MOVE BACKWARD (the N key) keys as fast as possible." +
     "<p class='instructions'>Please use only the index of your dominant hand for all these actions.</p>" +
+    "<br>" +
     "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
     " continue.</p>",
   choices: [32]
@@ -490,6 +494,7 @@ var vaast_instructions_4 = {
     "<p class ='instructions'><u>WARNING</u>: we will report your errors ONLY in the training phase,  " +
     "so read and memorize the instructions above. " + 
     "If your response is false, you will have to start again the trial and make the correct action. " +
+    "<br>" +
     "<p class = 'continue-instructions'>Press <strong>enter</strong> to " +
     "begin the training.</p>",
   choices: [13]
@@ -513,6 +518,7 @@ var vaast_instructions_5 = {
       "<strong>by pressing the N key</strong>" +
      "</li>" +
     "</ul>" +
+    "<br>" +
     "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
     " continue.</p>",
   choices: [32]
@@ -537,6 +543,8 @@ var vaast_instructions_6 = {
     "<p class ='instructions'><u>WARNING</u>: we will report your errors ONLY in the training phase,  " +
     "so read and memorize the instructions above. " + 
     "If your response is false, you will have to start again the trial and make the correct action. " +
+    "<br>" +
+    "<br>" +
     "<p class = 'continue-instructions'>Press <strong>enter</strong> to " +
     "begin the training.</p>",
   choices: [13]
@@ -560,6 +568,7 @@ var vaast_instructions_7 = {
       "<strong>by pressing the N key</strong>" +
      "</li>" +
     "</ul>" +
+    "<br>" +
     "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
     " continue.</p>",
   choices: [32]
@@ -781,6 +790,7 @@ var vaast_instructions_8 = {
   stimulus:
     "<h1 class ='custom-title'> Video Game task</h1>" +
     "<p><center>This task is completed.</center></p>" +
+    "<br>" +
     "<p class = 'continue-instructions'>Press <strong>space</strong> to" +
     " continue.</p>",
   choices: [32]
@@ -928,6 +938,8 @@ var iat_instructions_1_1 = {
         "<td align='left'>Alonzo, Jamel, Lerone, Percell, Theo, Alphonse, Jerome, Leroy, Rasaan, Torrance, Darnell, Lamar, Lionel, Rashaun, Tyree, Deion, Lamont, Malik, Terrence, Tyrone, Everol, Lavon, Marcellus, Terryl, Wardell</td>" +
       "</tr>" +
     "</table>" +
+    "<br>" +
+    "<br>" +
     "<p class = 'continue-instructions'>Press <span class='key'>space</span>" +
     " to continue.</p>",
   choices: [32]
@@ -952,7 +964,7 @@ var iat_instructions_block_1 = {
   "</div>" +
   "<div class='iat-instructions' style='position: relative; top: 42%, width:80%;'> " +
     "<p class='instructions'>" +
-      "In the next task, you will have to put your middle or index fingers on the <span class='key'>E</span> " +
+      "In the upcoming task, you will have to put your middle or index fingers on the <span class='key'>E</span> " +
       "and <span class='key'>I</span> keys of your keyboard. Words representing the categories at the top " +
       "will appear one-by-one in the middle of the screen. " +
       "When the item belongs to a category on the left, press the <span class='key'>E</span> key; when the item " +
@@ -963,6 +975,7 @@ var iat_instructions_block_1 = {
       "This is a timed sorting task. GO AS FAST AS YOU CAN while making as few mistakes as possible. " +
     "</p>" +
   "</div> " +
+  "<br>" +
   "<br>" +
   "<p class = 'continue-instructions'>Press <span class='key'>space bar</span> when you are ready to start.</p>",
   choices: [32]
@@ -994,6 +1007,7 @@ var iat_instructions_block_2 = {
       "GO AS FAST AS YOU CAN. " +
     "</p>" +
   "</div> " +
+  "<br>" +
   "<br>" +
   "<p class = 'continue-instructions'>Press <span class='key'>space bar</span> when you are ready to start.</p>",
   choices: [32]
@@ -1027,6 +1041,7 @@ var iat_instructions_block_3 = {
     "</p>" +
   "</div> " +
   "<br />" +
+  "<br>" +
   "<p class = 'continue-instructions'>Press <span class='key'>space bar</span> when you are ready to start.</p>",
   choices: [32]
 };
@@ -1059,6 +1074,7 @@ var iat_instructions_block_3_test = {
     "</p>" +
   "</div> " +
   "<br />" +
+  "<br>" +
   "<p class = 'continue-instructions'>Press <span class='key'>space bar</span> when you are ready to start.</p>",
   choices: [32]
 };
@@ -1088,6 +1104,7 @@ var iat_instructions_block_4 = {
       "by hitting the other key." +
     "</p>" +
   "</div> " +
+  "<br>" +
   "<br>" +
   "<p class = 'continue-instructions'>Press <span class='key'>space bar</span> when you are ready to start.</p>",
   choices: [32]
@@ -1120,6 +1137,7 @@ var iat_instructions_block_5 = {
     "</p>" +
   "</div> " +
   "<br />" +
+  "<br>" +
   "<p class = 'continue-instructions'>Press <span class='key'>space bar</span> when you are ready to start.</p>",
   choices: [32]
 };
@@ -1152,6 +1170,7 @@ var iat_instructions_block_5_test = {
     "</p>" +
   "</div> " +
   "<br />" +
+  "<br>" +
   "<p class = 'continue-instructions'>Press <span class='key'>space bar</span> when you are ready to start.</p>",
   choices: [32]
 };
@@ -1582,6 +1601,7 @@ var iat_instructions_2 = {
   stimulus:
     "<h1 class ='custom-title'> Categorization task </h1>" +
     "<p><center>This task is completed.</center></p>" +
+    "<br>" +
     "<p class = 'continue-instructions'>Press <strong>space</strong> to continue.</p>",
   choices: [32]
 };
