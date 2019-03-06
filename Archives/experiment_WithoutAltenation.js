@@ -886,29 +886,6 @@ switch(iat_black_1) {
     break;
 }
 
-
-// To alternate good/bad and black/white trials ---------------------------------------------------------------------
-var shuffleIATstims = function (stims) {
-    // Alterenate categories blackWhite vs. goodBad
-    var n = stims.length / 2;
-    var chunkedStims = _.chunk(stims, n);
-    var stims1 = jsPsych.randomization.shuffleNoRepeats(chunkedStims[0]);
-    var stims2 = jsPsych.randomization.shuffleNoRepeats(chunkedStims[1]);
-
-    var stims12 = stims1.map(function (e, i) { // merge two arrays so that the values alternate
-        return [e, stims2[i]];
-    });
-    var stims21 = stims2.map(function (e, i) {
-        return [e, stims1[i]];
-    });
-
-    var t = _.sample([stims12, stims21]);
-    t = _.flattenDeep(t);
-
-    return t;
-};
-
-
 // iat instructions ---------------------------------------------------------------------
 
 var iat_instructions_1 = {
@@ -1506,8 +1483,7 @@ var iat_block_3_training = {
     },
     save_iat_trial
   ],
-  timeline_variables: shuffleIATstims(iat_block_3_stim)
-  //timeline_variables: sample_n_iat(iat_block_3_stim, 5)  //here, put 60
+  timeline_variables: sample_n_iat(iat_block_3_stim, 5)  //here, put 60
 }
 
 // iat - block 3 (test) -----------------------------------------------------------------orginally 74 trials over 8 stim
@@ -1534,8 +1510,7 @@ var iat_block_3_test = {
     },
     save_iat_trial
   ],
-  timeline_variables: shuffleIATstims(iat_block_3_stim)
-  //timeline_variables: sample_n_iat(iat_block_3_stim, 5)  //here, put 60
+  timeline_variables: sample_n_iat(iat_block_3_stim, 5)  //here, put 60
 }
 
 // iat - block 4 ------------------------------------------------------------------------orginally 20 trials over 4 stim
@@ -1589,8 +1564,7 @@ var iat_block_5_training = {
     },
     save_iat_trial
   ],
-  timeline_variables: shuffleIATstims(iat_block_5_stim)
-  //timeline_variables: sample_n_iat(iat_block_5_stim, 5)  //here, put 60
+  timeline_variables: sample_n_iat(iat_block_5_stim, 5)  //here, put 60
 }
 
 // iat - block 5 (test) -----------------------------------------------------------------orginally 74 trials over 8 stim
@@ -1618,8 +1592,7 @@ var iat_block_5_test = {
     },
     save_iat_trial
   ],
-  timeline_variables: shuffleIATstims(iat_block_5_stim)
-  //timeline_variables: sample_n_iat(iat_block_5_stim, 5)  //here, put 60
+  timeline_variables: sample_n_iat(iat_block_5_stim, 5)  //here, put 60
 }
 
 //
