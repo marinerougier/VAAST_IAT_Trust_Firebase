@@ -157,23 +157,23 @@ switch(vaast_condition_approach_1) {
   case "approach_black":
     movement_black_1    = "approach";
     movement_white_1    = "avoidance";
-    group_to_approach_1 = "African Americans";
-    group_to_avoid_1    = "European Americans";
+    group_to_approach_1 = "African American";
+    group_to_avoid_1    = "European American";
     movement_black_2    = "avoidance";
     movement_white_2    = "approach";
-    group_to_approach_2 = "European Americans";
-    group_to_avoid_2    = "African Americans";
+    group_to_approach_2 = "European American";
+    group_to_avoid_2    = "African American";
     break;
 
   case "approach_white":
     movement_black_1    = "avoidance";
     movement_white_1    = "approach";
-    group_to_approach_1 = "European Americans";
-    group_to_avoid_1    = "African Americans";
+    group_to_approach_1 = "European American";
+    group_to_avoid_1    = "African American";
     movement_black_2    = "approach";
     movement_white_2    = "avoidance";
-    group_to_approach_2 = "African Americans";
-    group_to_avoid_2    = "European Americans";
+    group_to_approach_2 = "African American";
+    group_to_avoid_2    = "European American";
     break;
 }
 
@@ -183,43 +183,43 @@ switch(vaast_condition_approach_1) {
 // movement_1 ou movement_2.
 
 var vaast_stim_training = [
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Alonzo"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Jamel"},
-  {movement_1: movement_white_1, movement_2: movement_white_2,  group: "European Americans",  stimulus: "Adam"},
-  {movement_1: movement_white_1, movement_2: movement_white_2,  group: "European Americans",  stimulus: "Chip"}
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Marquis"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Terell"},
+  {movement_1: movement_white_1, movement_2: movement_white_2,  group: "European American",  stimulus: "Tanner"},
+  {movement_1: movement_white_1, movement_2: movement_white_2,  group: "European American",  stimulus: "Wyatt"}
 ]
 
 var vaast_stim = [
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Lerone"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Theo"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Leroy"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Rasaan"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Darnell"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Torrance"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Lamar"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Lionel"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Rashaun"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Tyree"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Deion"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Lamont"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Torrence"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Tyrone"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Everol"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European Americans",  stimulus: "Harry"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European Americans",  stimulus: "Josh"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European Americans",  stimulus: "Roger"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European Americans",  stimulus: "Alan"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European Americans",  stimulus: "Frank"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European Americans",  stimulus: "Justin"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European Americans",  stimulus: "Ryan"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European Americans",  stimulus: "Andrew"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European Americans",  stimulus: "Fred"}, 
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European Americans",  stimulus: "Jack"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European Americans",  stimulus: "Matthew"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European Americans",  stimulus: "Stephen"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European Americans",  stimulus: "Greg"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European Americans",  stimulus: "Jed"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European Americans",  stimulus: "Paul"}
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Alonzo"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Jamel"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Lerone"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Percell"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Theo"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Alphonse"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Jerome"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Leroy"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Rasaan"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Torrance"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Darnell"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Lamar"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Lionel"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Rashaun"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Tyree"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Adam"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Chip"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Harry"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Josh"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Roger"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Alan"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Franck"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Ian"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Justin"}, 
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Ryan"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Andrew"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Fred"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Jack"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Matthew"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Stephen"}
 ];
 
 // vaast background images --------------------------------------------------------------,
@@ -421,7 +421,7 @@ var vaast_instructions_2 = {
     "<h1 class ='custom-title'> Video Game task </h1>" +
     "<p class='instructions'> A series of first names will be displayed in this environment. " +
     "As you will see, some of these first names are usually associated " +
-    "with African Americans (typical African Americans first names) vs. European Americans (typical European Americans first names)." +
+    "with African American people (typical African American people first names) vs. European American people (typical European American people first names)." +
     "<p class='instructions'>Your task is to move forward or backward as a function of these first names " +
     "(more specific instructions following) and this by using the following keys on your keyboard: </p>" +
     "<p class='instructions'>Y = to MOVE FORWARD </p>" +
@@ -481,9 +481,9 @@ var vaast_instructions_4 = {
     "<h1 class ='custom-title'> Video Game task - Section 1</h1>" +
     "<p class='instructions'>In this section, you have to: " +
     "<ul class='instructions'>" +
-    "<li><strong>Approach (move forward) typical " + group_to_approach_1 + " first names </strong></li>" +
+    "<li><strong>Approach (move forward) typical " + group_to_approach_1 + " people first names </strong></li>" +
     "<strong>by pressing the Y key </strong>" +
-    "<li><strong>Avoid (move backward) typical " + group_to_avoid_1 + " first names </strong></li>" +
+    "<li><strong>Avoid (move backward) typical " + group_to_avoid_1 + " people first names </strong></li>" +
     "<strong>by pressing the N key</strong>" +
     "</ul>" +
     "<p class='instructions'>It is very important to remember which action you will " +
@@ -510,11 +510,11 @@ var vaast_instructions_5 = {
     "<p class='instructions'>As a reminder, in this section you have to:</p>" +
     "<ul class='instructions'>" +
      "<li>" +
-      "<strong>Approach (move forward) typical " + group_to_approach_1 + " first names </strong>" +
+      "<strong>Approach (move forward) typical " + group_to_approach_1 + " people first names </strong>" +
       "<strong>by pressing the Y key</strong>" +
      "</li>" +
      "<li>" +
-      "<strong>Avoid (move backward) typical " + group_to_avoid_1 + " first names </strong>" +
+      "<strong>Avoid (move backward) typical " + group_to_avoid_1 + " people first names </strong>" +
       "<strong>by pressing the N key</strong>" +
      "</li>" +
     "</ul>" +
@@ -530,9 +530,9 @@ var vaast_instructions_6 = {
     "<h1 class ='custom-title'> Video Game task - Section 2</h1>" +
     "<p class='instructions'>In this section, you have to: " +
     "<ul class='instructions'>" +
-    "<li><strong>Approach (move forward) typical " + group_to_approach_2 + " first names </strong></li>" +
+    "<li><strong>Approach (move forward) typical " + group_to_approach_2 + " people first names </strong></li>" +
     "<strong>by pressing the Y key </strong>" +
-    "<li><strong>Avoid (move backward) typical " + group_to_avoid_2 + " first names </strong></li>" +
+    "<li><strong>Avoid (move backward) typical " + group_to_avoid_2 + " people first names </strong></li>" +
     "<strong>by pressing the N key</strong>" +
     "</ul>" +
     "<p class='instructions'>It is very important to remember which action you will " +
@@ -560,11 +560,11 @@ var vaast_instructions_7 = {
     "<p class='instructions'>As a reminder, in this section you have to:</p>" +
     "<ul class='instructions'>" +
      "<li>" +
-      "<strong>Approach (move forward) typical " + group_to_approach_2 + " first names </strong>" +
+      "<strong>Approach (move forward) typical " + group_to_approach_2 + " people first names </strong>" +
       "<strong>by pressing the Y key</strong>" +
      "</li>" +
      "<li>" +
-      "<strong>Avoid (move backward) typical " + group_to_avoid_2 + " first names </strong>" +
+      "<strong>Avoid (move backward) typical " + group_to_avoid_2 + " people first names </strong>" +
       "<strong>by pressing the N key</strong>" +
      "</li>" +
     "</ul>" +
@@ -857,14 +857,14 @@ switch(iat_black_1) {
       black_side_2nd = "right";
       white_side_2nd  = "left";
 
-    block_1_left_label          = "African Americans";
-    block_1_right_label         = "European Americans";
-    block_3_left_label_bottom   = "African Americans";
-    block_3_right_label_bottom  = "European Americans";
-    block_4_left_label          = "European Americans";
-    block_4_right_label         = "African Americans";
-    block_5_left_label_bottom   = "European Americans";
-    block_5_right_label_bottom  = "African Americans";
+    block_1_left_label          = "African American people";
+    block_1_right_label         = "European American people";
+    block_3_left_label_bottom   = "African American people";
+    block_3_right_label_bottom  = "European American people";
+    block_4_left_label          = "European American people";
+    block_4_right_label         = "African American people";
+    block_5_left_label_bottom   = "European American people";
+    block_5_right_label_bottom  = "African American people";
 
     break;
 
@@ -874,14 +874,14 @@ switch(iat_black_1) {
         black_side_2nd = "left";
         white_side_2nd  = "right";
 
-    block_1_left_label          = "European Americans";
-    block_1_right_label         = "African Americans";
-    block_3_left_label_bottom   = "European Americans";
-    block_3_right_label_bottom  = "African Americans";
-    block_4_left_label          = "African Americans";
-    block_4_right_label         = "European Americans";
-    block_5_left_label_bottom   = "African Americans";
-    block_5_right_label_bottom  = "European Americans";
+    block_1_left_label          = "European American people";
+    block_1_right_label         = "African American people";
+    block_3_left_label_bottom   = "European American people";
+    block_3_right_label_bottom  = "African American people";
+    block_4_left_label          = "African American people";
+    block_4_right_label         = "European American people";
+    block_5_left_label_bottom   = "African American people";
+    block_5_right_label_bottom  = "European American people";
 
     break;
 }
@@ -921,7 +921,7 @@ var iat_instructions_1 = {
     "</p>" +
     "<p class='instructions'>As you will see, you will have to sort" +
     " words depending on whether these ones are good vs. bad" +
-    " and first names depending on whether these ones are usually associated with African Americans vs. European Americans.</p>" +
+    " and first names depending on whether these ones are usually associated with African American people vs. European American people.</p>" +
     "<h3 class='instructions'>Instructions</h3>" +
     "<ul class='instructions'>" +
       "<li>Keep fingers on the <span class='key'>E</span> and <span class='key'>I</span> keys to enable rapid response.</li>" +
@@ -953,7 +953,6 @@ var iat_instructions_1_1 = {
         "<td align='left'>Abuse, Crash, Filth, Murder, Sickness, Accident, Death, Grief, Poison, Stink, Assault, Disaster, Hatred, Pollute, Tragedy, Bomb, Divorce, Jail, Poverty, Ugly, Cancer, Evil, Kill, Rotten, Vomit</td>" +
       "</tr>" +
       "<tr>" +
-      "<br>"+
         "<td>European Americans</td>" +
         "<td align='left'>Adam, Chip, Harry, Josh, Roger, Alan, Franck, Ian, Justin, Ryan, Andrew, Fred, Jack, Matthew, Stephen, Brad, Greg, Jed, Paul, Todd, Brandon, Hank, Jonathan, Peter, Wilbur</td>" +
       "</tr>" +
@@ -1203,36 +1202,36 @@ var iat_instructions_block_5_test = {
 
 
 var iat_block_1_stim = [
-  {category: "black-white", stimulus: "Lerone",    stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Theo",      stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Leroy",     stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Rasaan",    stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Darnell",   stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Torrance",  stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Lamar",     stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Lionel",    stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Rashaun",   stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Tyree",     stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Deion",     stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Lamont",    stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Torrence",  stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Tyrone",    stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Everol",    stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Harry",     stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Alonzo",     stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Jamel",      stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Lerone",     stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Percell",    stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Theo",       stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Alphonse",   stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Jerome",     stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Leroy",      stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Rasaan",     stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Torrance",   stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Darnell",    stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Lamar",      stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Lionel",     stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Rashaun",    stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Tyree",      stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Adam",     stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Chip",     stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Harry",    stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Josh",     stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Roger",    stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Alan",     stim_key_association: white_side_1st},
-  {category: "black-white", stimulus: "Frank",    stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Franck",   stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Ian",      stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Justin",   stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Ryan",     stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Andrew",   stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Fred",     stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Jack",     stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Matthew",  stim_key_association: white_side_1st},
-  {category: "black-white", stimulus: "Stephen",  stim_key_association: white_side_1st},
-  {category: "black-white", stimulus: "Greg",     stim_key_association: white_side_1st},
-  {category: "black-white", stimulus: "Jed",      stim_key_association: white_side_1st},
-  {category: "black-white", stimulus: "Paul",     stim_key_association: white_side_1st}
+  {category: "black-white", stimulus: "Stephen",  stim_key_association: white_side_1st}
 ]
 
 var iat_block_2_stim = [
@@ -1299,69 +1298,69 @@ var iat_block_3_stim = [
   {category: "good-bad", stimulus: "Hatred",         stim_key_association: bad_side},
   {category: "good-bad", stimulus: "Pollute",        stim_key_association: bad_side},
   {category: "good-bad", stimulus: "Tragedy",        stim_key_association: bad_side},
-  {category: "black-white", stimulus: "Lerone",    stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Theo",      stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Leroy",     stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Rasaan",    stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Darnell",   stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Torrance",  stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Lamar",     stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Lionel",    stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Rashaun",   stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Tyree",     stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Deion",     stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Lamont",    stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Torrence",  stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Tyrone",    stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Everol",    stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Harry",     stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Alonzo",     stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Jamel",      stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Lerone",     stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Percell",    stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Theo",       stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Alphonse",   stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Jerome",     stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Leroy",      stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Rasaan",     stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Torrance",   stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Darnell",    stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Lamar",      stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Lionel",     stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Rashaun",    stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Tyree",      stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Adam",     stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Chip",     stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Harry",    stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Josh",     stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Roger",    stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Alan",     stim_key_association: white_side_1st},
-  {category: "black-white", stimulus: "Frank",    stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Franck",   stim_key_association: white_side_1st},
+  {category: "black-white", stimulus: "Ian",      stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Justin",   stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Ryan",     stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Andrew",   stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Fred",     stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Jack",     stim_key_association: white_side_1st},
   {category: "black-white", stimulus: "Matthew",  stim_key_association: white_side_1st},
-  {category: "black-white", stimulus: "Stephen",  stim_key_association: white_side_1st},
-  {category: "black-white", stimulus: "Greg",     stim_key_association: white_side_1st},
-  {category: "black-white", stimulus: "Jed",      stim_key_association: white_side_1st},
-  {category: "black-white", stimulus: "Paul",     stim_key_association: white_side_1st}
+  {category: "black-white", stimulus: "Stephen",  stim_key_association: white_side_1st}
 ]
 
 var iat_block_4_stim = [
-  {category: "black-white", stimulus: "Lerone",    stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Theo",      stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Leroy",     stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Rasaan",    stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Darnell",   stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Torrance",  stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Lamar",     stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Lionel",    stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Rashaun",   stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Tyree",     stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Deion",     stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Lamont",    stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Torrence",  stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Tyrone",    stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Everol",    stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Harry",     stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Alonzo",     stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Jamel",      stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Lerone",     stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Percell",    stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Theo",       stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Alphonse",   stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Jerome",     stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Leroy",      stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Rasaan",     stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Torrance",   stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Darnell",    stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Lamar",      stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Lionel",     stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Rashaun",    stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Tyree",      stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Adam",     stim_key_association: white_side_2nd},
+  {category: "black-white", stimulus: "Chip",     stim_key_association: white_side_2nd},
+  {category: "black-white", stimulus: "Harry",    stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Josh",     stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Roger",    stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Alan",     stim_key_association: white_side_2nd},
-  {category: "black-white", stimulus: "Frank",    stim_key_association: white_side_2nd},
+  {category: "black-white", stimulus: "Franck",   stim_key_association: white_side_2nd},
+  {category: "black-white", stimulus: "Ian",      stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Justin",   stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Ryan",     stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Andrew",   stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Fred",     stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Jack",     stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Matthew",  stim_key_association: white_side_2nd},
-  {category: "black-white", stimulus: "Stephen",  stim_key_association: white_side_2nd},
-  {category: "black-white", stimulus: "Greg",     stim_key_association: white_side_2nd},
-  {category: "black-white", stimulus: "Jed",      stim_key_association: white_side_2nd},
-  {category: "black-white", stimulus: "Paul",     stim_key_association: white_side_2nd}
+  {category: "black-white", stimulus: "Stephen",  stim_key_association: white_side_2nd}
 ]
 
 var iat_block_5_stim = [
@@ -1395,36 +1394,36 @@ var iat_block_5_stim = [
   {category: "good-bad", stimulus: "Hatred",         stim_key_association: bad_side},
   {category: "good-bad", stimulus: "Pollute",        stim_key_association: bad_side},
   {category: "good-bad", stimulus: "Tragedy",        stim_key_association: bad_side},
-  {category: "black-white", stimulus: "Lerone",    stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Theo",      stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Leroy",     stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Rasaan",    stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Darnell",   stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Torrance",  stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Lamar",     stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Lionel",    stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Rashaun",   stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Tyree",     stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Deion",     stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Lamont",    stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Torrence",  stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Tyrone",    stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Everol",    stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Harry",     stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Alonzo",     stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Jamel",      stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Lerone",     stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Percell",    stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Theo",       stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Alphonse",   stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Jerome",     stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Leroy",      stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Rasaan",     stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Torrance",   stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Darnell",    stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Lamar",      stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Lionel",     stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Rashaun",    stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Tyree",      stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Adam",     stim_key_association: white_side_2nd},
+  {category: "black-white", stimulus: "Chip",     stim_key_association: white_side_2nd},
+  {category: "black-white", stimulus: "Harry",    stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Josh",     stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Roger",    stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Alan",     stim_key_association: white_side_2nd},
-  {category: "black-white", stimulus: "Frank",    stim_key_association: white_side_2nd},
+  {category: "black-white", stimulus: "Franck",   stim_key_association: white_side_2nd},
+  {category: "black-white", stimulus: "Ian",      stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Justin",   stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Ryan",     stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Andrew",   stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Fred",     stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Jack",     stim_key_association: white_side_2nd},
   {category: "black-white", stimulus: "Matthew",  stim_key_association: white_side_2nd},
-  {category: "black-white", stimulus: "Stephen",  stim_key_association: white_side_2nd},
-  {category: "black-white", stimulus: "Greg",     stim_key_association: white_side_2nd},
-  {category: "black-white", stimulus: "Jed",      stim_key_association: white_side_2nd},
-  {category: "black-white", stimulus: "Paul",     stim_key_association: white_side_2nd}
+  {category: "black-white", stimulus: "Stephen",  stim_key_association: white_side_2nd}
 ]
 
 
