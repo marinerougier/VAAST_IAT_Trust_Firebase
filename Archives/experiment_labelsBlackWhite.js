@@ -157,23 +157,23 @@ switch(vaast_condition_approach_1) {
   case "approach_black":
     movement_black_1    = "approach";
     movement_white_1    = "avoidance";
-    group_to_approach_1 = "African American";
-    group_to_avoid_1    = "European American";
+    group_to_approach_1 = "black";
+    group_to_avoid_1    = "white";
     movement_black_2    = "avoidance";
     movement_white_2    = "approach";
-    group_to_approach_2 = "European American";
-    group_to_avoid_2    = "African American";
+    group_to_approach_2 = "white";
+    group_to_avoid_2    = "black";
     break;
 
   case "approach_white":
     movement_black_1    = "avoidance";
     movement_white_1    = "approach";
-    group_to_approach_1 = "European American";
-    group_to_avoid_1    = "African American";
+    group_to_approach_1 = "white";
+    group_to_avoid_1    = "black";
     movement_black_2    = "approach";
     movement_white_2    = "avoidance";
-    group_to_approach_2 = "African American";
-    group_to_avoid_2    = "European American";
+    group_to_approach_2 = "black";
+    group_to_avoid_2    = "white";
     break;
 }
 
@@ -183,43 +183,43 @@ switch(vaast_condition_approach_1) {
 // movement_1 ou movement_2.
 
 var vaast_stim_training = [
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Marquis"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Terell"},
-  {movement_1: movement_white_1, movement_2: movement_white_2,  group: "European American",  stimulus: "Tanner"},
-  {movement_1: movement_white_1, movement_2: movement_white_2,  group: "European American",  stimulus: "Wyatt"}
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Marquis"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Terell"},
+  {movement_1: movement_white_1, movement_2: movement_white_2,  group: "white",  stimulus: "Tanner"},
+  {movement_1: movement_white_1, movement_2: movement_white_2,  group: "white",  stimulus: "Wyatt"}
 ]
 
 var vaast_stim = [
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Alonzo"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Jamel"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Lerone"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Percell"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Theo"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Alphonse"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Jerome"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Leroy"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Rasaan"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Torrance"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Darnell"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Lamar"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Lionel"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Rashaun"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African American", stimulus: "Tyree"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Adam"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Chip"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Harry"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Josh"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Roger"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Alan"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Franck"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Ian"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Justin"}, 
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Ryan"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Andrew"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Fred"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Jack"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Matthew"},
-  {movement_1: movement_white_1, movement_2: movement_white_2, group: "European American",  stimulus: "Stephen"}
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Alonzo"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Jamel"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Lerone"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Percell"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Theo"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Alphonse"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Jerome"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Leroy"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Rasaan"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Torrance"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Darnell"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Lamar"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Lionel"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Rashaun"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "black", stimulus: "Tyree"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Adam"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Chip"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Harry"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Josh"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Roger"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Alan"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Franck"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Ian"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Justin"}, 
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Ryan"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Andrew"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Fred"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Jack"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Matthew"},
+  {movement_1: movement_white_1, movement_2: movement_white_2, group: "white",  stimulus: "Stephen"}
 ];
 
 // vaast background images --------------------------------------------------------------,
@@ -421,7 +421,7 @@ var vaast_instructions_2 = {
     "<h1 class ='custom-title'> Video Game task </h1>" +
     "<p class='instructions'> A series of first names will be displayed in this environment. " +
     "As you will see, some of these first names are usually associated " +
-    "with African American people (typical African American people first names) vs. European American people (typical European American people first names)." +
+    "with Black people (typical Black people first names) vs. White people (typical White people first names)." +
     "<p class='instructions'>Your task is to move forward or backward as a function of these first names " +
     "(more specific instructions following) and this by using the following keys on your keyboard: </p>" +
     "<p class='instructions'>Y = to MOVE FORWARD </p>" +
@@ -444,11 +444,11 @@ var vaast_instructions_2_1 = {
         "<th align='left'>Item</th>" +
       "</tr>" +
       "<tr>" +
-        "<td>European Americans</td>" +
+        "<td>WHITE people</td>" +
         "<td align='left'>Adam, Chip, Harry, Josh, Roger, Alan, Franck, Ian, Justin, Ryan, Andrew, Fred, Jack, Matthew, Stephen, Brad, Greg, Jed, Paul, Todd, Brandon, Hank, Jonathan, Peter, Wilbur</td>" +
       "</tr>" +
       "<tr>" +
-        "<td>African Americans</td>" +
+        "<td>BLACK people</td>" +
         "<td align='left'>Alonzo, Jamel, Lerone, Percell, Theo, Alphonse, Jerome, Leroy, Rasaan, Torrance, Darnell, Lamar, Lionel, Rashaun, Tyree, Deion, Lamont, Malik, Terrence, Tyrone, Everol, Lavon, Marcellus, Terryl, Wardell</td>" +
       "</tr>" +
     "</table>" +
@@ -857,14 +857,14 @@ switch(iat_black_1) {
       black_side_2nd = "right";
       white_side_2nd  = "left";
 
-    block_1_left_label          = "African American people";
-    block_1_right_label         = "European American people";
-    block_3_left_label_bottom   = "African American people";
-    block_3_right_label_bottom  = "European American people";
-    block_4_left_label          = "European American people";
-    block_4_right_label         = "African American people";
-    block_5_left_label_bottom   = "European American people";
-    block_5_right_label_bottom  = "African American people";
+    block_1_left_label          = "BLACK people";
+    block_1_right_label         = "WHITE people";
+    block_3_left_label_bottom   = "BLACK people";
+    block_3_right_label_bottom  = "WHITE people";
+    block_4_left_label          = "WHITE people";
+    block_4_right_label         = "BLACK people";
+    block_5_left_label_bottom   = "WHITE people";
+    block_5_right_label_bottom  = "BLACK people";
 
     break;
 
@@ -874,14 +874,14 @@ switch(iat_black_1) {
         black_side_2nd = "left";
         white_side_2nd  = "right";
 
-    block_1_left_label          = "European American people";
-    block_1_right_label         = "African American people";
-    block_3_left_label_bottom   = "European American people";
-    block_3_right_label_bottom  = "African American people";
-    block_4_left_label          = "African American people";
-    block_4_right_label         = "European American people";
-    block_5_left_label_bottom   = "African American people";
-    block_5_right_label_bottom  = "European American people";
+    block_1_left_label          = "WHITE people";
+    block_1_right_label         = "BLACK people";
+    block_3_left_label_bottom   = "WHITE people";
+    block_3_right_label_bottom  = "BLACK people";
+    block_4_left_label          = "BLACK people";
+    block_4_right_label         = "WHITE people";
+    block_5_left_label_bottom   = "BLACK people";
+    block_5_right_label_bottom  = "WHITE people";
 
     break;
 }
@@ -921,7 +921,7 @@ var iat_instructions_1 = {
     "</p>" +
     "<p class='instructions'>As you will see, you will have to sort" +
     " words depending on whether these ones are good vs. bad" +
-    " and first names depending on whether these ones are usually associated with African American people vs. European American people.</p>" +
+    " and first names depending on whether these ones are usually associated with Black people vs. White people.</p>" +
     "<h3 class='instructions'>Instructions</h3>" +
     "<ul class='instructions'>" +
       "<li>Keep fingers on the <span class='key'>E</span> and <span class='key'>I</span> keys to enable rapid response.</li>" +
@@ -953,11 +953,11 @@ var iat_instructions_1_1 = {
         "<td align='left'>Abuse, Crash, Filth, Murder, Sickness, Accident, Death, Grief, Poison, Stink, Assault, Disaster, Hatred, Pollute, Tragedy, Bomb, Divorce, Jail, Poverty, Ugly, Cancer, Evil, Kill, Rotten, Vomit</td>" +
       "</tr>" +
       "<tr>" +
-        "<td>European Americans</td>" +
+        "<td>WHITE people</td>" +
         "<td align='left'>Adam, Chip, Harry, Josh, Roger, Alan, Franck, Ian, Justin, Ryan, Andrew, Fred, Jack, Matthew, Stephen, Brad, Greg, Jed, Paul, Todd, Brandon, Hank, Jonathan, Peter, Wilbur</td>" +
       "</tr>" +
       "<tr>" +
-        "<td>African Americans</td>" +
+        "<td>BLACK people</td>" +
         "<td align='left'>Alonzo, Jamel, Lerone, Percell, Theo, Alphonse, Jerome, Leroy, Rasaan, Torrance, Darnell, Lamar, Lionel, Rashaun, Tyree, Deion, Lamont, Malik, Terrence, Tyrone, Everol, Lavon, Marcellus, Terryl, Wardell</td>" +
       "</tr>" +
     "</table>" +
