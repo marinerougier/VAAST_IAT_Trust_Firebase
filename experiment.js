@@ -202,7 +202,7 @@ var vaast_stim = [
   {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Tyree"},
   {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Deion"},
   {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Lamont"},
-  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Torrence"},
+  {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Terrence"},
   {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Tyrone"},
   {movement_1: movement_black_1, movement_2: movement_black_2, group: "African Americans", stimulus: "Everol"},
   {movement_1: movement_white_1, movement_2: movement_white_2, group: "European Americans",  stimulus: "Harry"},
@@ -445,11 +445,11 @@ var vaast_instructions_2_1 = {
       "</tr>" +
       "<tr>" +
         "<td>European Americans</td>" +
-        "<td align='left'>Adam, Chip, Harry, Josh, Roger, Alan, Franck, Ian, Justin, Ryan, Andrew, Fred, Jack, Matthew, Stephen, Brad, Greg, Jed, Paul, Todd, Brandon, Hank, Jonathan, Peter, Wilbur</td>" +
+        "<td align='left'>Adam, Chip, Harry, Josh, Roger, Alan, Franck, Justin, Ryan, Andrew, Fred, Jack, Matthew, Stephen, Greg, Jed, Paul</td>" +
       "</tr>" +
       "<tr>" +
         "<td>African Americans</td>" +
-        "<td align='left'>Alonzo, Jamel, Lerone, Percell, Theo, Alphonse, Jerome, Leroy, Rasaan, Torrance, Darnell, Lamar, Lionel, Rashaun, Tyree, Deion, Lamont, Malik, Terrence, Tyrone, Everol, Lavon, Marcellus, Terryl, Wardell</td>" +
+        "<td align='left'>Alonzo, Jamel, Lerone, Theo, Leroy, Rasaan, Torrance, Darnell, Lamar, Lionel, Rashaun, Tyree, Deion, Lamont, Terrence, Tyrone, Everol</td>" +
       "</tr>" +
     "</table>" +
     "<br>" +
@@ -946,20 +946,20 @@ var iat_instructions_1_1 = {
       "</tr>" +
       "<tr>" +
         "<td>GOOD</td>" +
-        "<td align='left'>Caress, Freedom, Health, Love, Peace, Cheer, Friend, Heaven, Loyal, Pleasure, Diamond, Gentle, Honest, Lucky, Rainbow, Diploma, Gift, Honor, Miracle, Sunrise, Family, Happy, Laughter, Paradise, Vacation</td>" +
+        "<td align='left'>Caress, Freedom, Health, Love, Peace, Cheer, Friend, Heaven, Loyal, Pleasure, Diamond, Gentle, Honest, Lucky, Rainbow</td>" +
       "</tr>" +
       "<tr>" +
         "<td>BAD</td>" +
-        "<td align='left'>Abuse, Crash, Filth, Murder, Sickness, Accident, Death, Grief, Poison, Stink, Assault, Disaster, Hatred, Pollute, Tragedy, Bomb, Divorce, Jail, Poverty, Ugly, Cancer, Evil, Kill, Rotten, Vomit</td>" +
+        "<td align='left'>Abuse, Crash, Filth, Murder, Sickness, Accident, Death, Grief, Poison, Stink, Assault, Disaster, Hatred, Pollute, Tragedy</td>" +
       "</tr>" +
       "<tr>" +
       "<br>"+
         "<td>European Americans</td>" +
-        "<td align='left'>Adam, Chip, Harry, Josh, Roger, Alan, Franck, Ian, Justin, Ryan, Andrew, Fred, Jack, Matthew, Stephen, Brad, Greg, Jed, Paul, Todd, Brandon, Hank, Jonathan, Peter, Wilbur</td>" +
+        "<td align='left'>Harry, Josh, Roger, Alan, Franck, Justin, Ryan, Andrew, Fred, Jack, Matthew, Stephen, Greg, Jed, Paul</td>" +
       "</tr>" +
       "<tr>" +
         "<td>African Americans</td>" +
-        "<td align='left'>Alonzo, Jamel, Lerone, Percell, Theo, Alphonse, Jerome, Leroy, Rasaan, Torrance, Darnell, Lamar, Lionel, Rashaun, Tyree, Deion, Lamont, Malik, Terrence, Tyrone, Everol, Lavon, Marcellus, Terryl, Wardell</td>" +
+        "<td align='left'>Lerone, Theo, Leroy, Rasaan, Torrance, Darnell, Lamar, Lionel, Rashaun, Tyree, Deion, Lamont, Terrence, Tyrone, Everol</td>" +
       "</tr>" +
     "</table>" +
     "<br>" +
@@ -1215,7 +1215,7 @@ var iat_block_1_stim = [
   {category: "black-white", stimulus: "Tyree",     stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Deion",     stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Lamont",    stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Torrence",  stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Terrence",  stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Tyrone",    stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Everol",    stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Harry",     stim_key_association: white_side_1st},
@@ -1311,7 +1311,7 @@ var iat_block_3_stim = [
   {category: "black-white", stimulus: "Tyree",     stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Deion",     stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Lamont",    stim_key_association: black_side_1st},
-  {category: "black-white", stimulus: "Torrence",  stim_key_association: black_side_1st},
+  {category: "black-white", stimulus: "Terrence",  stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Tyrone",    stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Everol",    stim_key_association: black_side_1st},
   {category: "black-white", stimulus: "Harry",     stim_key_association: white_side_1st},
@@ -1344,7 +1344,7 @@ var iat_block_4_stim = [
   {category: "black-white", stimulus: "Tyree",     stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Deion",     stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Lamont",    stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Torrence",  stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Terrence",  stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Tyrone",    stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Everol",    stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Harry",     stim_key_association: black_side_2nd},
@@ -1407,7 +1407,7 @@ var iat_block_5_stim = [
   {category: "black-white", stimulus: "Tyree",     stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Deion",     stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Lamont",    stim_key_association: black_side_2nd},
-  {category: "black-white", stimulus: "Torrence",  stim_key_association: black_side_2nd},
+  {category: "black-white", stimulus: "Terrence",  stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Tyrone",    stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Everol",    stim_key_association: black_side_2nd},
   {category: "black-white", stimulus: "Harry",     stim_key_association: black_side_2nd},
